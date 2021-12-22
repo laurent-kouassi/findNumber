@@ -10,7 +10,7 @@ function findNumber(A) {
   let result = 1;
   
   if(max_A > 0){
-  for(var j = 0; j <= max_A; j++){
+  for(var j = 0; j < max_A; j++){
     if(!A.includes(j)) result = j;
     else result = max_A + 1
   }
